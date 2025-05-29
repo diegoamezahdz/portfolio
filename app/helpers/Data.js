@@ -1,31 +1,59 @@
-import { FaCode, FaServer, FaCloud, FaReact, FaNodeJs, FaPython, FaDocker, FaGitAlt, FaAws, FaDatabase, FaGitlab, FaBitbucket, FaGoogle, FaPhone } from "react-icons/fa";
-import { SiOllama, SiClaude, SiTypescript, SiJavascript, SiRedux, SiMongodb, SiPostgresql, SiVite, SiAngular, SiCreatereactapp, SiFirebase, SiTailwindcss, SiStyledcomponents } from "react-icons/si";
+import {
+  FaCode,
+  FaServer,
+  FaCloud,
+  FaReact,
+  FaNodeJs,
+  FaPython,
+  FaDocker,
+  FaGitAlt,
+  FaDatabase,
+  FaGitlab,
+  FaBitbucket,
+  FaGoogle,
+} from "react-icons/fa";
+import {
+  SiOllama,
+  SiClaude,
+  SiTypescript,
+  SiJavascript,
+  SiRedux,
+  SiMongodb,
+  SiVite,
+  SiAngular,
+  SiCreatereactapp,
+  SiFirebase,
+  SiTailwindcss,
+  SiStyledcomponents,
+} from "react-icons/si";
 import { LuBot } from "react-icons/lu";
 import { RiGeminiLine } from "react-icons/ri";
 import { GiSpermWhale } from "react-icons/gi";
 import { CiChat1 } from "react-icons/ci";
 import { IoPhonePortraitOutline } from "react-icons/io5";
-import muuappImage from '@/app/assets/muuapp.jpg'
+import muuappImage from "@/app/assets/muuapp.jpg";
 
 export const projects = [
   {
     id: 1,
     img: muuappImage,
     title: "Muu App",
-    description: "Aplicación diseñada para simplificar y optimizar la gestión del ganado bovino en una o varias fincas. Pensada para ganaderos, veterinarios y administradores rurales, permite llevar un control detallado y en tiempo real del estado de cada animal",
+    description:
+      "Aplicación diseñada para simplificar y optimizar la gestión del ganado bovino en una o varias fincas. Pensada para ganaderos, veterinarios y administradores rurales, permite llevar un control detallado y en tiempo real del estado de cada animal",
     technologies: ["React Native", "Styled Components", "Node.js", "MongoDB"],
     githubUrl: "https://github.com/diegoamezahdz/muuapp",
-    liveUrl: "#"
+    liveUrl: "#",
   },
   {
     id: 2,
     img: muuappImage,
     title: "La mejor ruta",
-    description: "Aplicación web diseñada para ayudarte a encontrar la mejor ruta entre dos o más puntos, optimizando tiempo, distancia o preferencias específicas del usuario.",
+    description:
+      "Aplicación web diseñada para ayudarte a encontrar la mejor ruta entre dos o más puntos, optimizando tiempo, distancia o preferencias específicas del usuario.",
     technologies: ["Next.js", "JavaScript", "React", "Tailwind"],
     githubUrl: "https://github.com/diegoamezahdz/form-map",
-    liveUrl: "#"
-  }
+    liveUrl: "#",
+  },
 ];
 
 export const skillCategories = [
@@ -41,8 +69,8 @@ export const skillCategories = [
       { name: "JavaScript", icon: <SiJavascript /> },
       { name: "Redux", icon: <SiRedux /> },
       { name: "Tailwind", icon: <SiTailwindcss /> },
-      { name: "Styled Components", icon: <SiStyledcomponents /> }
-    ]
+      { name: "Styled Components", icon: <SiStyledcomponents /> },
+    ],
   },
   {
     id: 2,
@@ -54,8 +82,7 @@ export const skillCategories = [
       { name: "MongoDB", icon: <SiMongodb /> },
       { name: "SQL Server", icon: <FaDatabase /> },
       { name: "Firebase", icon: <SiFirebase /> },
-
-    ]
+    ],
   },
   {
     id: 3,
@@ -67,16 +94,14 @@ export const skillCategories = [
       { name: "Git Lab", icon: <FaGitlab /> },
       { name: "BitBucket", icon: <FaBitbucket /> },
       { name: "Google Cloud", icon: <FaGoogle /> },
-    ]
+    ],
   },
 
   {
     id: 4,
     title: "Móvil",
     icon: <IoPhonePortraitOutline className="w-6 h-6" />,
-    skills: [
-      { name: "React Native", icon: <SiCreatereactapp /> },
-    ]
+    skills: [{ name: "React Native", icon: <SiCreatereactapp /> }],
   },
   {
     id: 5,
@@ -89,7 +114,6 @@ export const skillCategories = [
       { name: "OpenIa", icon: <CiChat1 /> },
       { name: "DeepSeek", icon: <GiSpermWhale /> },
       { name: "Cursor", icon: <SiClaude /> },
-
-    ]
-  }
+    ],
+  },
 ];

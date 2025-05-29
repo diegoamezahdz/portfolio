@@ -5,8 +5,14 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '/portfolio', // Reemplaza con el nombre de tu repo
-  assetPrefix: '/portfolio/', // Reemplaza con el nombre de tu repo
+  // basePath: '/portfolio',
+  // assetPrefix: '/portfolio/',
+  // Agregar esto:
+  // experimental: {
+  //   alias: {
+  //     '@': './',
+  //   }
+  // }
 }
 
 module.exports = nextConfig

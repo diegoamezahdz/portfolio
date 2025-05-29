@@ -1,5 +1,4 @@
 import React from 'react';
-import CustomButton from './atoms/CustomButton';
 import { Contact, Home, Projects, Skills } from './components/sections';
 import Layout from './components/layout/Layout';
 
