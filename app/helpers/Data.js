@@ -25,15 +25,6 @@ export const projects = [
     technologies: ["Next.js", "JavaScript", "React", "Tailwind"],
     githubUrl: "https://github.com/diegoamezahdz/form-map",
     liveUrl: "#"
-  },
-  {
-    id: 3,
-    img: muuappImage,
-    title: "La mejor ruta",
-    description: "Aplicación web diseñada para ayudarte a encontrar la mejor ruta entre dos o más puntos, optimizando tiempo, distancia o preferencias específicas del usuario.",
-    technologies: ["Next.js", "JavaScript", "React", "Tailwind"],
-    githubUrl: "https://github.com/diegoamezahdz/form-map",
-    liveUrl: "#"
   }
 ];
 
